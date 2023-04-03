@@ -1,0 +1,32 @@
+{
+  "name": "badbird",
+  "displayName": "badbird",
+  "description": "dark color theme with soft colors",
+  "version": "0.1.0",
+  "icon": "img/logo.png",
+  "publisher": "dullptr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PatrickTorgerson/badbird.git"
+  },
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "brown"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "badbird",
+        "uiTheme": "vs-dark",
+        "path": "./themes/badbird-color-theme.json"
+      }
+    ]
+  }
+}
